@@ -1,0 +1,25 @@
+<section class="navbar">
+  <nav class="nav">
+      <div class="nav-container">
+          <div class="nav-logo">
+              <a href="index.html">
+                  <img [src]="exampleLogo" alt="">
+              </a>
+          </div>
+          <label for="menu" class="nav-label">
+            <img class="nav-img" [src]="hamburgerMenu" alt="">
+        </label>
+        <input (click)="toggleHamburgerMenu()" class="nav-input" type="checkbox" id="menu">
+          <div class="nav-menu">
+              <a class="nav-item" href="">Inicio</a>
+              <a class="nav-item" href="">Eventos</a>
+              <a class="nav-item" href="">Cotizador</a>
+              <a class="nav-item" href="">Servicios</a>
+              <a class="nav-item" href="">Testimonios</a>
+              <a class="nav-item" href="">Contacto</a>
+              <a class="nav-item" href="">Agentes</a>
+          </div>
+      </div>
+  </nav>
+</section>
+

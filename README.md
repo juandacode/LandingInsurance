@@ -1,3 +1,14 @@
+# Consideraciones a tener en cuenta en el proyecto
+  Angular Reactive Forms con Form builder
+  Crear WebSite multilenguaje
+  Todos los componentes deben ser responsivos
+  TailWind css Opcional
+  Display Grid
+  Api Rest Consumir Api
+  Seo Posicionamiento de la Pagina
+  Cookies en Angular
+  Cambiar Imagen de Cookies SVG Bonita
+  Generar Favicon+
 # Frontend
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.0.
