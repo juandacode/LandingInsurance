@@ -8,7 +8,8 @@
   Seo Posicionamiento de la Pagina
   Cookies en Angular
   Cambiar Imagen de Cookies SVG Bonita
-  Generar Favicon+
+  Generar Favicon
+  Preguntar si quieren el Banner en HomeComponent
 # Frontend
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.0.

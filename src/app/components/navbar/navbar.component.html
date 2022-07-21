@@ -3,21 +3,22 @@
       <div class="nav-container">
           <div class="nav-logo">
               <a href="index.html">
-                  <img [src]="exampleLogo" alt="">
+                  <img [src]="exampleLogo" alt="Companie Logo">
               </a>
           </div>
           <label for="menu" class="nav-label">
-            <img class="nav-img" [src]="hamburgerMenu" alt="">
+            <img class="nav-img" [src]="hamburgerMenu" alt="Icon type Hamburger">
         </label>
         <input (click)="toggleHamburgerMenu()" class="nav-input" type="checkbox" id="menu">
           <div class="nav-menu">
-              <a class="nav-item" href="">Inicio</a>
-              <a class="nav-item" href="">Eventos</a>
-              <a class="nav-item" href="">Cotizador</a>
-              <a class="nav-item" href="">Servicios</a>
-              <a class="nav-item" href="">Testimonios</a>
-              <a class="nav-item" href="">Contacto</a>
-              <a class="nav-item" href="">Agentes</a>
+            <img [src]="flagSpain" alt="Flag of Spain">
+              <a class="nav-item" href="">{{"INICIO" | translate }}</a>
+              <a class="nav-item" href="">{{"EVENTOS" | translate }}</a>
+              <a class="nav-item" href="">{{"COTIZADOR" | translate }}</a>
+              <a class="nav-item" href="">{{"SERVICIOS" | translate }}</a>
+              <a class="nav-item" href="">{{"TESTIMONIOS" | translate }}</a>
+              <a class="nav-item" href="">{{"CONTACTO" | translate }}</a>
+              <a class="nav-item" href="">{{"AGENTES" | translate }}</a>
           </div>
       </div>
   </nav>
