@@ -1,20 +1,29 @@
 # Consideraciones a tener en cuenta en el proyecto
+  Sabado...
+    Cookies en Angular y preguntar como aparecen
+    Cambiar Imagen de Cookies SVG Bonita
+    Definir Pages y crear esos components
+    Cuales son las funcionalidades de cada Page
+    Img Responsive
+    Preguntar si quieren el Banner en HomeComponent
+    Preguntar o Generar Favicon
   Angular Reactive Forms con Form builder
   Crear WebSite multilenguaje
+  Hacer una landing Page Exitosa de Insurance para CRM
+  Buscar Paginas 
   Todos los componentes deben ser responsivos
   TailWind css Opcional
   Display Grid
+  Colocar DatePicker para Eventos en Home
   Api Rest Consumir Api
   Seo Posicionamiento de la Pagina
-  Cookies en Angular
-  Cambiar Imagen de Cookies SVG Bonita
-  Generar Favicon
-  Preguntar si quieren el Banner en HomeComponent
+  Colocar Mapa en Contacto
   Cuales son los componentes que quieren que se reutilicen
   Implementar Sweet Alerts en Proyecto
-  Img Responsive
   Verificar si existen partners
+  Cambiar el error en el Banner
   
+  # Recomendaciones de compañeros 
   # Nombres de Compañeros
   Gleidy Asistente de Jorge
   Suly

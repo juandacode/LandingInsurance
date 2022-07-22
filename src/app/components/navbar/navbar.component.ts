@@ -7,9 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavbarComponent implements OnInit {
 
-  exampleLogo: string = '../../../assets/icons/example-logo.svg';
+  logo: string = '../../../assets/icons/logo.png';
   hamburgerMenu: string = '../../../assets/icons/hamburger-menu.svg';
   flagSpain: string = '../../../assets/icons/flag-spain.svg';
+  flagEnglish: string = '../../../assets/icons/flag-usa.svg';
   toggleHamburger: boolean = false;
 
   constructor() { }

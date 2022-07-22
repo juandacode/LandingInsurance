@@ -20,6 +20,9 @@ import { SliderImageComponent } from './components/slider-image/slider-image.com
 import { FillSectionComponent } from './components/fill-section/fill-section.component';
 import { ContactUsComponent } from './components/contact-us/contact-us.component';
 import { TestimonyComponent } from './components/testimony/testimony.component';
+import { DatePickerComponent } from './components/date-picker/date-picker.component';
+import { ButtonChatComponent } from './components/button-chat/button-chat.component';
+import { CookiesComponent } from './components/cookies/cookies.component';
 
 
 export function HttpLoaderFactory(httpClient: HttpClient) {
@@ -38,7 +41,10 @@ export function HttpLoaderFactory(httpClient: HttpClient) {
     SliderImageComponent,
     FillSectionComponent,
     ContactUsComponent,
-    TestimonyComponent
+    TestimonyComponent,
+    DatePickerComponent,
+    ButtonChatComponent,
+    CookiesComponent
   ],
   imports: [
     BrowserModule,

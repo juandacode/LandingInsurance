@@ -1,0 +1,45 @@
+section {
+  display: table;
+}
+.example-label {
+  display: table-cell;
+  font-size: 14px;
+  margin-left: 8px;
+  min-width: 120px;
+}
+.example-button-row {
+  display: table-cell;
+  width: 490px;
+}
+.example-button-row .mat-button-base {
+  margin: 8px 8px 8px 0;
+}
+.home-icon {
+  display: flex;
+}
+.example-flex-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.button-chat-chanel {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+  position: fixed;
+  bottom: 0;
+  right: calc(100% - 98%);
+}
+.button-whatsapp {
+  background-color: #25D366;
+  position: fixed;
+  bottom: calc(100% - 95%);
+  right: calc(100% - 98%);
+  width: 6rem;
+  height: 6rem;
+}
+.button-whatsapp:hover {
+  background-color: blue;
+}

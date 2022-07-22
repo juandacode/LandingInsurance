@@ -1,0 +1,13 @@
+<section class="cookies">
+  <div class="cookies-container">
+    <div class="cookies-text">
+      <img [src]="imageCookies" alt="Imagen de Cookies">
+      <p class="cookies-policies">Our website use cookies. By continuing navigating, we assume your permission to deploy cookies as detailed in our Privacy Policy.</p>
+    </div>
+    <div class="cookies-buttons">
+      <button class="button-accept" mat-raised-button color="primary" (click)="acceptCookies()"><img [src]="iconCookies" alt="Icono de Cookies">{{"ACEPTAR COOKIES" | translate }}</button>
+      <button class="button-decline" mat-raised-button color="primary" (click)="declineCookies()">{{"RECHAZAR" | translate }}</button>
+      <mat-icon class="icon-close"> close </mat-icon>
+    </div>
+  </div>
+</section>

@@ -3,7 +3,7 @@
       <div class="nav-container">
           <div class="nav-logo">
               <a href="index.html">
-                  <img [src]="exampleLogo" alt="Companie Logo">
+                  <img [src]="logo" alt="Companie Logo">
               </a>
           </div>
           <label for="menu" class="nav-label">
@@ -11,14 +11,14 @@
         </label>
         <input (click)="toggleHamburgerMenu()" class="nav-input" type="checkbox" id="menu">
           <div class="nav-menu">
-            <img [src]="flagSpain" alt="Flag of Spain">
               <a class="nav-item" href="">{{"INICIO" | translate }}</a>
-              <a class="nav-item" href="">{{"EVENTOS" | translate }}</a>
               <a class="nav-item" href="">{{"COTIZADOR" | translate }}</a>
               <a class="nav-item" href="">{{"SERVICIOS" | translate }}</a>
               <a class="nav-item" href="">{{"TESTIMONIOS" | translate }}</a>
               <a class="nav-item" href="">{{"CONTACTO" | translate }}</a>
               <a class="nav-item" href="">{{"AGENTES" | translate }}</a>
+              <img class="flag" [src]="flagSpain" alt="Bandera de España">
+              <img class="flag" [src]="flagEnglish" alt="Bandera de Estados Unidos">
           </div>
       </div>
   </nav>
