@@ -1,0 +1,56 @@
+<section class="contact-us">
+  <div class="contact-us-container">
+    <div class="contact-us-image">
+      <img [src]="contactUsImage" alt="">
+    </div>
+    <div class="contact-us-form">
+      <h2>{{ contact | uppercase }} </h2>
+      <h3>Let’s Collaborate Now!</h3>
+      <form action="">
+        <div class="contact-us-inputs">
+          <div class="contact-us-input">
+            <mat-form-field appearance="outline">
+              <mat-label>Full Name</mat-label>
+              <input matInput placeholder="Full Name">
+              <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
+            </mat-form-field>
+          </div>
+          <div class="contact-us-input">
+            <mat-form-field appearance="outline">
+              <mat-label>Full Name</mat-label>
+              <input matInput placeholder="Full Name">
+              <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
+            </mat-form-field>
+          </div>
+          <div class="contact-us-input">
+            <mat-form-field appearance="outline">
+              <mat-label>Full Name</mat-label>
+              <input matInput placeholder="Full Name">
+              <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
+            </mat-form-field>
+          </div>
+          <div class="contact-us-input">
+            <mat-form-field class="example-full-width" appearance="fill">
+              <mat-label><img [src]="contactUsCalendar" alt=""> Select Date</mat-label>
+              <input matInput [matDatepicker]="picker">
+              <mat-hint>MM/DD/YYYY</mat-hint>
+              <mat-datepicker-toggle matSuffix [for]="picker">
+                <mat-icon matDatepickerToggleIcon>keyboard_arrow_down</mat-icon>
+              </mat-datepicker-toggle>
+              <mat-datepicker #picker></mat-datepicker>
+            </mat-form-field>
+          </div>
+          <div class="contact-us-input">
+            <mat-form-field appearance="fill">
+              <mat-label>Textarea</mat-label>
+              <textarea class="textarea" matInput></textarea>
+            </mat-form-field>
+          </div>
+          <button type="button" class="contact-us-button">Send Message</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+
+

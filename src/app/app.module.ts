@@ -17,6 +17,9 @@ import { FormUserComponent } from './components/forms/form-user/form-user.compon
 import { PrivacyPolicyComponent } from './components/privacy-policy/privacy-policy.component';
 import { MultiLanguageComponent } from './components/multi-language/multi-language.component';
 import { SliderImageComponent } from './components/slider-image/slider-image.component';
+import { FillSectionComponent } from './components/fill-section/fill-section.component';
+import { ContactUsComponent } from './components/contact-us/contact-us.component';
+import { TestimonyComponent } from './components/testimony/testimony.component';
 
 
 export function HttpLoaderFactory(httpClient: HttpClient) {
@@ -32,7 +35,10 @@ export function HttpLoaderFactory(httpClient: HttpClient) {
     FormUserComponent,
     PrivacyPolicyComponent,
     MultiLanguageComponent,
-    SliderImageComponent
+    SliderImageComponent,
+    FillSectionComponent,
+    ContactUsComponent,
+    TestimonyComponent
   ],
   imports: [
     BrowserModule,

@@ -3,17 +3,96 @@
     <div class="input-field">
       <mat-form-field appearance="outline">
         <mat-label>Nombre: <span></span></mat-label>
+        <input matInput placeholder="Nombre">
+        <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
+        <mat-hint>Hint</mat-hint>
+      </mat-form-field>
+    </div>
+    <div class="input-field">
+      <mat-form-field appearance="outline">
+        <mat-label>Apellido: <span></span></mat-label>
+        <input matInput placeholder="Apellido">
+        <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
+        <mat-hint>Hint</mat-hint>
+      </mat-form-field>
+    </div>
+    <div class="input-field">
+      <mat-form-field appearance="outline">
+        <mat-label>Email: <span></span></mat-label>
         <input matInput placeholder="Placeholder">
         <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
         <mat-hint>Hint</mat-hint>
       </mat-form-field>
     </div>
-    <mat-form-field appearance="outline">
-      <mat-label>Outline form field</mat-label>
-      <input matInput placeholder="Placeholder">
-      <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
-      <mat-hint>Hint</mat-hint>
-    </mat-form-field>
+    <div class="input-field">
+      <mat-form-field appearance="outline">
+        <mat-label>Teléfono: <span></span></mat-label>
+        <input matInput placeholder="Teléfono">
+        <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
+        <mat-hint>Hint</mat-hint>
+      </mat-form-field>
+    </div>
+    <div class="input-field">
+      <mat-form-field appearance="outline">
+        <mat-label>Apellido: <span></span></mat-label>
+        <input matInput placeholder="Apellido">
+        <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
+        <mat-hint>Hint</mat-hint>
+      </mat-form-field>
+    </div>
+    <div class="input-field">
+      <mat-form-field appearance="outline">
+        <mat-label>Apellido: <span></span></mat-label>
+        <input matInput placeholder="Apellido">
+        <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
+        <mat-hint>Hint</mat-hint>
+      </mat-form-field>
+    </div>
+    <div class="input-field">
+      <mat-form-field appearance="outline">
+        <mat-label>Apellido: <span></span></mat-label>
+        <input matInput placeholder="Apellido">
+        <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
+        <mat-hint>Hint</mat-hint>
+      </mat-form-field>
+    </div>
+    <div class="input-field">
+      <mat-form-field appearance="outline">
+        <mat-label>Apellido: <span></span></mat-label>
+        <input matInput placeholder="Apellido">
+        <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
+        <mat-hint>Hint</mat-hint>
+      </mat-form-field>
+    </div>
+    <div class="input-field">
+      <mat-form-field appearance="outline">
+        <mat-label>Apellido: <span></span></mat-label>
+        <input matInput placeholder="Apellido">
+        <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
+        <mat-hint>Hint</mat-hint>
+      </mat-form-field>
+    </div>
+    <div class="input-field">
+      <mat-form-field appearance="outline">
+        <mat-label>Apellido: <span></span></mat-label>
+        <input matInput placeholder="Apellido">
+        <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
+        <mat-hint>Hint</mat-hint>
+      </mat-form-field>
+    </div>
+    <div class="input-field">
+      <h4>mat select</h4>
+      <mat-form-field appearance="fill">
+        <mat-label>Favorite animal</mat-label>
+        <mat-select required>
+          <mat-option *ngFor="let animal of animals" [value]="animal">
+            {{animal.name}}
+          </mat-option>
+        </mat-select>
+        <mat-error *ngIf="animalControl.hasError('required')">Please choose an animal</mat-error>
+        <mat-hint>{{animalControl.value?.sound}}</mat-hint>
+      </mat-form-field>
+      </div>
   </div>
 </section>
 

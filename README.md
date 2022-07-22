@@ -10,6 +10,15 @@
   Cambiar Imagen de Cookies SVG Bonita
   Generar Favicon
   Preguntar si quieren el Banner en HomeComponent
+  Cuales son los componentes que quieren que se reutilicen
+  Implementar Sweet Alerts en Proyecto
+  Img Responsive
+  Verificar si existen partners
+  
+  # Nombres de Compañeros
+  Gleidy Asistente de Jorge
+  Suly
+  Marlyon
 # Frontend
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.0.
