@@ -23,6 +23,8 @@ import { TestimonyComponent } from './components/testimony/testimony.component';
 import { DatePickerComponent } from './components/date-picker/date-picker.component';
 import { ButtonChatComponent } from './components/button-chat/button-chat.component';
 import { CookiesComponent } from './components/cookies/cookies.component';
+import { VideoTestimonyComponent } from './components/video-testimony/video-testimony.component';
+import { BannerComponent } from './components/banner/banner.component';
 
 
 export function HttpLoaderFactory(httpClient: HttpClient) {
@@ -44,7 +46,9 @@ export function HttpLoaderFactory(httpClient: HttpClient) {
     TestimonyComponent,
     DatePickerComponent,
     ButtonChatComponent,
-    CookiesComponent
+    CookiesComponent,
+    VideoTestimonyComponent,
+    BannerComponent
   ],
   imports: [
     BrowserModule,

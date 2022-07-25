@@ -29,6 +29,10 @@
   Suly
   Marlyon
 # Frontend
+Atraer mas agentes a la empresa.
+Agente debe poder crear una pagina. API
+Vender mas seguros
+Venderle a empresas
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.0.
 

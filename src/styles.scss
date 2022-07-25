@@ -1,6 +1,20 @@
 /* You can add global styles to this file, and also import other style files */
 @import '~@angular/material/prebuilt-themes/indigo-pink.css';
 
+/* Variables Globales */
+:root {
+  --marine-water-color: #00A099;
+  --white-color: #ffffff;
+  --black-color: #000000;
+  --green-color: #B7FDB5;
+  --dark-blue-color: #001727;
+  --nexa-light-font: 'nexa-light', sans-serif;
+  --nexa-bold-font: 'nexa-bold', sans-serif;
+  --nexa-light-font-size: 1.2rem;
+  --nexa-bold-font-size: 1.6rem;
+}
+
+
 * {
   margin: 0;
   padding: 0;

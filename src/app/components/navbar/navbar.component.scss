@@ -4,7 +4,6 @@
   background-size: cover;
   min-height: 50rem;
   height: 100vh;
-  color: #fff;
 }
 .navbar {
   width: 100%;
@@ -12,9 +11,9 @@
   top: 0;
 }
 .nav {
-  background-color: #09B29D ;
+  background-color: transparent;
   height: 8rem;
-  box-shadow: -4px 13px 16px -2px rgba(0,0,0,0.15);
+  /* box-shadow: -4px 13px 16px -2px rgba(0,0,0,0.15); */
 }
 .nav-container {
   display: flex;
@@ -38,7 +37,7 @@
   cursor: pointer;
 }
 .nav-item {
-  color: rgb(223, 223, 223);
+  color: var(--white-color);
   font-size: 1.8rem;
   text-decoration: none;
   --clippy: polygon(0 0, 0 0, 0 100%, 0% 100%);
@@ -49,14 +48,36 @@
   margin-top: 0.3rem;
   height: 0.3rem;
   clip-path: var(--clippy);
-  background: #fff;
+  background-color: var(--marine-water-color);
   transition: all 0.5s;
 }
 .nav-item:hover {
-  color: var(--color-white);
+  color: var(--marine-water-color);
   --clippy: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
 }
-@media (max-width: 800px) {
+.nav-menu-icons {
+  display: flex;
+  justify-content: space-around;
+}
+.nav-menu > button {
+  width: 3rem;
+  height: 3rem;
+}
+.nav-menu-icons {
+  display: flex;
+  justify-content: center;
+}
+.nav-menu-icons > a img {
+  margin: 0 auto;
+  transform: scale(1.2);
+}
+.nav-menu-icons > a img:hover {
+  transform: scale(1.4);
+}
+
+
+/* Media Queries */
+@media (max-width: 1060px) {
   .nav-label {
       display: block;
       cursor: pointer;
@@ -65,7 +86,7 @@
       position: fixed;
       top: 8rem;
       bottom: 0;
-      background: var(--primary-color);
+      background: var(--marine-water-color);
       width: 100%;
       left: 0;
       display: flex;
