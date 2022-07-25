@@ -1,16 +1,16 @@
 .fill-section {
-  margin-top: 30rem;
-  margin-bottom: 20rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 
 }
 .fill-section-container{
   height: auto;
   width: 100%;
-  background-color: #282C4B;
-  color: white;
+  background-color: var(--dark-blue-color);
+  color: var(--white-color);
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-  
+
 }
 .fill-section-features {
   display: flex;

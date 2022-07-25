@@ -5,27 +5,34 @@
     </div>
     <div class="contact-us-form">
       <h2>{{ contact | uppercase }} </h2>
-      <h3>Let’s Collaborate Now!</h3>
-      <form action="">
+      <h3>Diligencie el formulario a continuación y uno de nuestros agentes se pondrá en contacto brevemente</h3>
+      <form class="form-data" action="">
         <div class="contact-us-inputs">
           <div class="contact-us-input">
             <mat-form-field appearance="outline">
-              <mat-label>Full Name</mat-label>
-              <input matInput placeholder="Full Name">
+              <mat-label>Nombre</mat-label>
+              <input matInput placeholder="Nombre">
+              <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
+            </mat-form-field>
+          </div>
+              <div class="contact-us-input">
+                <mat-form-field appearance="outline">
+                  <mat-label>Apellido</mat-label>
+                  <input matInput placeholder="Apellido">
+                  <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
+                </mat-form-field>
+              </div>
+          <div class="contact-us-input">
+            <mat-form-field appearance="outline">
+              <mat-label>Email</mat-label>
+              <input matInput placeholder="Email">
               <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
             </mat-form-field>
           </div>
           <div class="contact-us-input">
             <mat-form-field appearance="outline">
-              <mat-label>Full Name</mat-label>
-              <input matInput placeholder="Full Name">
-              <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
-            </mat-form-field>
-          </div>
-          <div class="contact-us-input">
-            <mat-form-field appearance="outline">
-              <mat-label>Full Name</mat-label>
-              <input matInput placeholder="Full Name">
+              <mat-label>Telefono</mat-label>
+              <input matInput placeholder="Telefono">
               <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
             </mat-form-field>
           </div>
@@ -40,10 +47,43 @@
               <mat-datepicker #picker></mat-datepicker>
             </mat-form-field>
           </div>
-          <div class="contact-us-input">
+          <!-- <div class="contact-us-input">
             <mat-form-field appearance="fill">
               <mat-label>Textarea</mat-label>
               <textarea class="textarea" matInput></textarea>
+            </mat-form-field>
+          </div> -->
+          <div class="contact-us-input">
+            <mat-form-field appearance="fill">
+              <mat-label>Select</mat-label>
+              <mat-select>
+                <mat-option value="one">First option</mat-option>
+                <mat-option value="two">Second option</mat-option>
+              </mat-select>
+            </mat-form-field>
+          </div>
+          <div class="contact-us-input">
+            <mat-form-field appearance="fill">
+              <mat-label>Servicio de su interés</mat-label>
+              <mat-select>
+                <mat-option value="one">Seguro de Vida</mat-option>
+                <mat-option value="two">Seguro Familiar</mat-option>
+                <mat-option value="two">Seguro de Salud</mat-option>
+                <mat-option value="two">Seguro de Compañías</mat-option>
+                <mat-option value="two">Planes de Retiro</mat-option>
+                <mat-option value="two">Soluciones financieras</mat-option>
+              </mat-select>
+            </mat-form-field>
+          </div>
+          <div class="contact-us-input">
+            <mat-form-field appearance="fill">
+              <mat-label>Hora de Llamada</mat-label>
+              <mat-select>
+                <mat-option value="one">8am a 12m</mat-option>
+                <mat-option value="two">1pm a 4pm</mat-option>
+                <mat-option value="two">5pm a 7pm</mat-option>
+                <mat-option value="two">8pm a 9pm</mat-option>
+              </mat-select>
             </mat-form-field>
           </div>
           <button type="button" class="contact-us-button">Send Message</button>
