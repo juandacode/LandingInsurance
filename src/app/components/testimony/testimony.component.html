@@ -1,8 +1,18 @@
 <section class="testimony">
+  <h4 class="testimony-title">TESTIMONIOS</h4>
+  <p class="testimony-paragraph">Descubra por qué más de 32,000 clientes en Estados Unidos eligieron Select Insurance.</p>
   <div class="testimony-container">
-    <h4>"TESTIMONIAL"</h4>
-    <h2>What Our Customer’s Say</h2>
-    <img [src]="testimonyImage" alt="Imagen de continentes con ubicaciones del mundo">
+    <div class="testimony-cards">
+      <div *ngFor="let testimony of testimonies" class="testimony-card">
+        <img class="testimony-image" [src]="testimony.image" alt="">
+        <p>{{ testimony.message }}</p>
+        <img class="stars" [src]="testimony.star" />
+      </div>
+    </div>
+    <div class="testimony-videos">
+      <video controls [src]="testimonyVideo"></video>
+      <video controls [src]="testimonyLarge"></video>
+    </div>
   </div>
 
 </section>

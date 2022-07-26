@@ -25,6 +25,14 @@ import { ButtonChatComponent } from './components/button-chat/button-chat.compon
 import { CookiesComponent } from './components/cookies/cookies.component';
 import { VideoTestimonyComponent } from './components/video-testimony/video-testimony.component';
 import { BannerComponent } from './components/banner/banner.component';
+import { ServicesComponent } from './components/pages/services/services.component';
+import { AgentsComponent } from './components/pages/agents/agents.component';
+import { QuoterComponent } from './components/pages/quoter/quoter.component';
+import { ContactComponent } from './components/pages/contact/contact.component';
+import { QuoteSectionComponent } from './components/quote-section/quote-section.component';
+import { FeaturesComponent } from './components/features/features.component';
+import { FormHomeComponent } from './components/forms/form-home/form-home.component';
+import { HomeInsuranceComponent } from './components/home-insurance/home-insurance.component';
 
 
 export function HttpLoaderFactory(httpClient: HttpClient) {
@@ -48,7 +56,15 @@ export function HttpLoaderFactory(httpClient: HttpClient) {
     ButtonChatComponent,
     CookiesComponent,
     VideoTestimonyComponent,
-    BannerComponent
+    BannerComponent,
+    ServicesComponent,
+    AgentsComponent,
+    QuoterComponent,
+    ContactComponent,
+    QuoteSectionComponent,
+    FeaturesComponent,
+    FormHomeComponent,
+    HomeInsuranceComponent
   ],
   imports: [
     BrowserModule,

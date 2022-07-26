@@ -1,0 +1,33 @@
+.quote-section {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+.quote-section-container {
+  background-color: var(--marine-water-color);
+  color: var(--white-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  padding: 3rem 0;
+}
+.quote-button {
+  width: 20rem;
+  height: 5rem;
+  cursor: pointer;
+  background-color: transparent;
+  border: 0.2rem solid var(--white-color);
+  border-radius: 1rem;
+  color: var(--white-color);
+  font-size: 2rem;
+}
+.quote-button:hover {
+  background-color: var(--white-color);
+  color: var(--marine-water-color);
+}
+.quote-subtitle {
+  font-size: 2.6rem;
+  font-weight: bold;
+  margin-top: 1rem;
+}

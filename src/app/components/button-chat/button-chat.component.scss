@@ -41,5 +41,8 @@ section {
   height: 6rem;
 }
 .button-whatsapp:hover {
-  background-color: blue;
+  background-color: var(--dark-blue-color);
+}
+.button-chat-chanel {
+  display: none;
 }

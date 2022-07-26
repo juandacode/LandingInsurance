@@ -1,0 +1,49 @@
+.home-insurance {
+  margin-bottom: 5rem;
+}
+.home-insurance-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.home-insurance-image {
+  width: 100%;
+  -webkit-box-shadow: 12px 17px 9px -6px rgba(173,168,173,1);
+  -moz-box-shadow: 12px 17px 9px -6px rgba(173,168,173,1);
+  box-shadow: 12px 17px 9px -6px rgba(173,168,173,1);
+}
+.home-insurance-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem 0;
+}
+
+.home-insurance-title {
+  font-size: 4rem;
+  font-weight: bold;
+  margin-top: 8rem;
+}
+.home-insurance-subtitle {
+  font-size: 2rem;
+  margin-top: 1rem;
+  margin-bottom : 5rem;
+  text-align: center;
+}
+.home-insurance-button {
+  max-width: 50rem;
+  min-width: 29rem;
+  height: 8rem;
+  cursor: pointer;
+  background-color: var(--marine-water-color);
+  border: 0.2rem solid var(--white-color);
+  border-radius: 0.5rem;
+  color: var(--white-color);
+  font-size: 2rem;
+  padding: 0.5rem;
+  margin: 1rem 0.5rem;
+}
+.home-insurance-button:hover {
+  background-color: #027973;
+}
+

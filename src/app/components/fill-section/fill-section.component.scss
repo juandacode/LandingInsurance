@@ -1,16 +1,15 @@
 .fill-section {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+  background-color: var(--dark-blue-color);
 
 }
 .fill-section-container{
   height: auto;
   width: 100%;
-  background-color: var(--dark-blue-color);
   color: var(--white-color);
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-
 }
 .fill-section-features {
   display: flex;
@@ -29,15 +28,15 @@
   display: inline-block;
 }
 .fill-section-button {
-  width: 15rem;
-  height: 4rem;
-  background: #ee9ca7;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #FF698D, #FB3F6C);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #FF698D, #FB3F6C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  width: 25rem;
+  height: 5rem;
+  background: #00A099;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #06f8ec, #00A099);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #06f8ec, #00A099); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   border-radius: 2rem;
   border:0.1rem solid var(--color-white);
-  font-size: 1.4rem;
-  color: white;
+  font-size: 1.6rem;
+  color: var(--color-white);
   font-weight: bold;
   margin-top: 3rem;
   cursor: pointer;

@@ -71,10 +71,12 @@
   margin: 0 auto;
   transform: scale(1.2);
 }
+.nav-menu-icons > a.active {
+  color: var(--marine-water-color);
+}
 .nav-menu-icons > a img:hover {
   transform: scale(1.4);
 }
-
 
 /* Media Queries */
 @media (max-width: 1060px) {
