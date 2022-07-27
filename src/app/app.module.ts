@@ -33,6 +33,7 @@ import { QuoteSectionComponent } from './components/quote-section/quote-section.
 import { FeaturesComponent } from './components/features/features.component';
 import { FormHomeComponent } from './components/forms/form-home/form-home.component';
 import { HomeInsuranceComponent } from './components/home-insurance/home-insurance.component';
+import { ServiceOfferComponent } from './components/service-offer/service-offer.component';
 
 
 export function HttpLoaderFactory(httpClient: HttpClient) {
@@ -64,7 +65,8 @@ export function HttpLoaderFactory(httpClient: HttpClient) {
     QuoteSectionComponent,
     FeaturesComponent,
     FormHomeComponent,
-    HomeInsuranceComponent
+    HomeInsuranceComponent,
+    ServiceOfferComponent
   ],
   imports: [
     BrowserModule,

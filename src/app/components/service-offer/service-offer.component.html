@@ -1,0 +1,15 @@
+<div class="features">
+  <h2 class="features-title">Protégete y Protege a los tuyos</h2>
+  <h4 class="features-subtitle">Con un seguro de vida que tienes a tu disposición durante toda tu vida.</h4>
+  <div class="features-container">
+    <div class="features-cards">
+      <div *ngFor="let offer of offers" class="features-card">
+        <picture class="offer-icon-container">
+          <a class="offer-icon-link" href=""><img class="offer-icon" [src]="offer.icon" alt=""></a>
+        </picture>
+
+        <h1 class="card-title">{{ offer.title }}</h1>
+      </div>
+    </div>
+  </div>
+</div>
